@@ -1,0 +1,184 @@
+/* styles.css */
+
+  .form-container {
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add your CSS in a separate file or style tag */
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal-dialog {
+  margin: 50px auto;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  padding: 15px;
+  background-color:#4497efa5;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.modal-body {
+  padding: 15px;
+}
+
+.close {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+  background-color: #4497efa5;
+  color: #fff;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #4497efa5;
+  color: #fff;
+  border: 1px solid #4497efa5;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+  border: 1px solid #28a745;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #333;
+  border: 1px solid #ffc107;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .modal-dialog {
+    width: 90%;
+  }
+}
+ 
+
+/* Dashboard layout 
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+*/
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin: 0 auto; /* Add this line to center horizontally */
+ 
+}
+
+.main-content {
+  padding: 20px;
+}
+
+/* Sidebar styles */
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar li a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+.main-content h1 {
+  margin-top: 0;
+}
+
+/* Responsive layout */
+@media (min-width: 768px) {
+  .dashboard-container {
+    grid-template-columns: 250px 1fr;
+  }
+}
+.form-container {
+  width: 80%; /* Adjust the width as needed */
+  margin: auto; /* Center the form horizontally */
+}
+.text-center {
+  text-align: center;
+  color:#0079facc;
+}

@@ -1,0 +1,110 @@
+
+.top{
+    color: #327fd1;
+    font-size: 30px;
+}
+body{
+    background-color: rgba(75, 74, 75, 0);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f247;
+}
+
+.container {
+    width: 360px;
+    height: 300px;
+    padding: 50px;
+    background-color: #ece8e879;
+    border-radius: 10px;
+    border: 2px solid #6f6d6d;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+   margin-left: -60px;
+
+}
+.for{
+    font-size: 30px;
+    top: 5px;
+    left: 70px;
+    color: #0c0a0a;
+    position: absolute;
+}
+.login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #36c27af1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.submit:hover{
+    background-color: rgba(80, 152, 228, 0.733);
+}
+
+.user{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 397px;
+    left: 590px;
+
+}
+.pass {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 450px;
+    left: 590px;
+
+}
+.pos{
+    position: absolute;
+    top: 170px;
+    left: 1000px;
+}
+.user1{
+position: absolute;
+top: 190px;
+left: -35px;
+font-size: 25px;
+color: #0a0303;
+}
+.pass1{
+    position: absolute;
+        top: 240px;
+        left: -35px;
+        font-size: 25px;
+        color: #0e0b0b;
+}
